@@ -95,8 +95,8 @@ const updateTaskList = () => {
                 <p>${task.text}</p>
             </div>
             <div class="icons">
-                <img src="/img/edit.png" onclick="editTask(${index})">
-                <img src="/img/bin.png" onclick="deleteTask(${index})">
+                <img src="img/edit.png" onclick="editTask(${index})">
+                <img src="img/bin.png" onclick="deleteTask(${index})">
             </div>
          </div>
          `;
@@ -153,3 +153,4 @@ const blaskConfitte = () => {
     startVelocity: 45,
   });
 };
+
